@@ -12,6 +12,13 @@ a {
     margin: 8px;
 }
 
+button {
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 8px;
+    background: green;
+  }
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -33,3 +40,19 @@ a {
     font-size: large;
 }
 
+.main {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.main-left {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.img-main {
+    width: 500px;
+}
