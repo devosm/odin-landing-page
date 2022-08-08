@@ -95,3 +95,38 @@ p {
 .img-main {
     width: 300px;
 }
+
+.cards-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-img {
+    width: 150px;
+    height: 150px;
+    border-color: #3882F6;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+img {
+    width: 150px;
+}
