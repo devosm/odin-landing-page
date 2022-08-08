@@ -95,3 +95,13 @@ p {
 .img-main {
     width: 300px;
 }
+
+.cards-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
