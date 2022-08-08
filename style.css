@@ -16,8 +16,19 @@ button {
     font-family: Roboto, sans-serif;
     border: none;
     border-radius: 8px;
-    background: green;
+    background-color: dodgerblue;
+    color: white;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
   }
+
+button:hover {
+    background-color: blue;
+}
 
 .header {
     display: flex;
@@ -30,7 +41,9 @@ button {
 
 .header-left {
     display: flex;
-    font-size: 32px;
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 100px;
 }
 
 .header-right {
@@ -38,6 +51,7 @@ button {
     justify-content: right;
     align-items: center;
     font-size: large;
+    margin-right: 100px;
 }
 
 .main {
